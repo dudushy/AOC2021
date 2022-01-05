@@ -34,7 +34,7 @@ Day | Status
 import os.path as Path
 
 # set global path
-path = Path.join(Path.dirname(__file__), 'day3.txt')
+path = Path.join(Path.dirname(__file__), 'dayX.txt')
 
 #main
 def part1():
