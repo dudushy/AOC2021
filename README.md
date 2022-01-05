@@ -2,7 +2,7 @@
 Day | Status
 --- | --- 
 [1](https://github.com/dudushy/AOC2021/blob/main/day1.py) | :heavy_check_mark:
-2 | :x:
+[2](https://github.com/dudushy/AOC2021/blob/main/day2.py) | :heavy_check_mark:
 3 | :x:
 4 | :x:
 5 | :x:
