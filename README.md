@@ -26,3 +26,31 @@ Day | Status
 23 | :x:
 24 | :x:
 25 | :x:
+
+---
+## Template
+```py
+#imports
+import os.path as Path
+
+# set global path
+path = Path.join(Path.dirname(__file__), 'day3.txt')
+
+#main
+def part1():
+    global path
+    with open(path, 'r') as file:
+        pass
+
+def part2():
+    global path
+    with open(path, 'r') as file:
+        pass
+
+def main():
+    part1()
+    part2()
+
+if __name__ == "__main__":
+    main()
+```
