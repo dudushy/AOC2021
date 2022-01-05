@@ -1,13 +1,13 @@
 #imports
-import os
+import os.path as Path
 
 # set global path
-path = os.path.dirname(__file__)
+path = Path.join(Path.dirname(__file__), 'day1.txt')
 
 #main
 def part1():
     global path
-    with open(f'{path}\day1.txt', 'r') as file:
+    with open(path, 'r') as file:
         last_input = float("inf")
         increased = 0
         decreased = 0
@@ -22,7 +22,7 @@ def part1():
 
 def part2():
     global path
-    with open(f'{path}\day1.txt', 'r') as file:
+    with open(path, 'r') as file:
         last_input = float("inf")
         increased = 0
         decreased = 0

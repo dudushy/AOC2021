@@ -1,8 +1,8 @@
 #imports
-import os
+import os.path as Path
 
 # set global path
-path = os.path.dirname(__file__)
+path = Path.join(Path.dirname(__file__), 'day2.txt')
 
 #main
 def part1():
