@@ -1,51 +1,28 @@
 # Advent Of Code (2021)
-
-- day 1 :heavy_check_mark:
-
-- day 2 :x:
-
-- day 3 :x:
-
-- day 4 :x:
-
-- day 5 :x:
-
-- day 6 :x:
-
-- day 7 :x:
-
-- day 8 :x:
-
-- day 9 :x:
-
-- day 10 :x:
-
-- day 11 :x:
-
-- day 12 :x:
-
-- day 13 :x:
-
-- day 14 :x:
-
-- day 15 :x:
-
-- day 16 :x:
-
-- day 17 :x:
-
-- day 18 :x:
-
-- day 19 :x:
-
-- day 20 :x:
-
-- day 21 :x:
-
-- day 22 :x:
-
-- day 23 :x:
-
-- day 24 :x:
-
-- day 25 :x:
+Day | Status
+--- | --- 
+1 | :heavy_check_mark:
+2 | :x:
+3 | :x:
+4 | :x:
+5 | :x:
+6 | :x:
+7 | :x:
+8 | :x:
+9 | :x:
+10 | :x:
+11 | :x:
+12 | :x:
+13 | :x:
+14 | :x:
+15 | :x:
+16 | :x:
+17 | :x:
+18 | :x:
+19 | :x:
+20 | :x:
+21 | :x:
+22 | :x:
+23 | :x:
+24 | :x:
+25 | :x:
