@@ -46,6 +46,8 @@ namespace ConsoleApp1
         static void Part2()
         {
             //How many sums are larger than the previous sum?
+
+            //FINISH LATER
         }
 
     }
