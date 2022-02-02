@@ -2,7 +2,7 @@
 import os.path as Path
 
 # set global path
-path = Path.join(Path.dirname(__file__), 'day2.txt')
+path = Path.join(Path.dirname(__file__), 'inputs\\day2.txt')
 
 #main
 def part1():
