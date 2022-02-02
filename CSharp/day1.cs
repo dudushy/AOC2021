@@ -32,7 +32,7 @@ namespace CSharp
                 last_input = int.Parse(inputs[i]);
             }
 
-            Console.WriteLine(String.Format("How many measurements are larger than the previous measurement?\n{0}", increased));
+            Console.WriteLine(String.Format("\nHow many measurements are larger than the previous measurement?\n{0}", increased));
         }
 
         public static void part2()

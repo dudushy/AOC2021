@@ -22,6 +22,7 @@ namespace CSharp
             {
                 string command = inputs[i].Split(" ")[0];
                 int value = int.Parse(inputs[i].Split(" ")[1]);
+
                 //Console.WriteLine(String.Format("{0} {1}",command, value));
 
                 if (command == "forward") 
@@ -38,14 +39,38 @@ namespace CSharp
                 }
             }
             
-            Console.WriteLine(String.Format("What do you get if you multiply your final horizontal position by your final depth?\n{0}", horizontalPos * depth));
+            Console.WriteLine(String.Format("\nWhat do you get if you multiply your final horizontal position by your final depth?\n{0}", horizontalPos * depth));
         }
 
         public static void part2()
         {
             //What do you get if you multiply your final horizontal position by your final depth?
 
-            //Console.WriteLine(String.Format("\nWhat do you get if you multiply your final horizontal position by your final depth?\n{0}", increased));
+            int horizontalPos = 0;
+            int depth = 0;
+            int aim = 0;
+
+            for (int i = 0; i < inputs.Length;i++)
+            {
+                string command = inputs[i].Split(" ")[0];
+                int value = int.Parse(inputs[i].Split(" ")[1]);
+
+                if (command == "forward")
+                {
+                    horizontalPos += value;
+                    depth += (aim * value);
+                }
+                else if (command == "down")
+                {
+                    aim += value;
+                }
+                else
+                {
+                    aim -= value;
+                }
+            }
+
+            Console.WriteLine(String.Format("\nWhat do you get if you multiply your final horizontal position by your final depth?\n{0}", horizontalPos * depth));
         }
 
     }
