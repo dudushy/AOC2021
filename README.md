@@ -65,25 +65,18 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApp1
+namespace CSharp
 {
-    static class day1
+    static class DayX
     {
         static readonly string[] inputs = File.ReadAllLines(Path.GetFullPath(Path.Combine(Directory.GetCurrentDirectory() + "..\\..\\..\\..\\inputs\\dayX.txt")), Encoding.UTF8);
 
-        //main
-        static void Main(string[] args)
-        {
-            Part1();
-            Part2();
-        }
-
-        static void Part1()
+        public static void Part1()
         {
             //PART 1 HERE
         }
 
-        static void Part2()
+        public static void Part2()
         {
             //PART 2 HERE
         }
