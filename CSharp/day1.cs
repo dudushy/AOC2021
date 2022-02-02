@@ -71,7 +71,7 @@ namespace ConsoleApp1
                 last_input = value;
 
             }
-            Console.WriteLine(String.Format("How many measurements are larger than the previous measurement?\n{0}", increased));
+            Console.WriteLine(String.Format("\nHow many measurements are larger than the previous measurement?\n{0}", increased));
         }
 
     }
