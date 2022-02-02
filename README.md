@@ -3,7 +3,7 @@
 Day | Status
 --- | --- 
 1 [py](https://github.com/dudushy/AOC2021/blob/main/Python/day1.py), [cs](https://github.com/dudushy/AOC2021/blob/main/CSharp/day1.cs) | :heavy_check_mark:
-1 [py](https://github.com/dudushy/AOC2021/blob/main/Python/day2.py) | :heavy_check_mark:
+2 [py](https://github.com/dudushy/AOC2021/blob/main/Python/day2.py) | :heavy_check_mark:
 3 | :x:
 4 | :x:
 5 | :x:
