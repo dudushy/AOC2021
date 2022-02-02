@@ -7,20 +7,13 @@ using System.Threading.Tasks;
 using System;
 using System.IO;
 
-namespace ConsoleApp1
+namespace CSharp
 {
-    static class day1
+    static class Day1
     {
         static readonly string[] inputs = File.ReadAllLines(Path.GetFullPath(Path.Combine(Directory.GetCurrentDirectory() + "..\\..\\..\\..\\inputs\\day1.txt")), Encoding.UTF8);
 
-        //main
-        static void Main(string[] args)
-        {
-            Part1();
-            Part2();
-        }
-
-        static void Part1()
+        public static void part1()
         {
             //How many measurements are larger than the previous measurement?
 
@@ -44,7 +37,7 @@ namespace ConsoleApp1
             Console.WriteLine(String.Format("How many measurements are larger than the previous measurement?\n{0}", increased));
         }
 
-        static void Part2()
+        public static void part2()
         {
             //How many sums are larger than the previous sum?
 
