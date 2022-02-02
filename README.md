@@ -57,6 +57,7 @@ if __name__ == "__main__":
     main()
 ```
 
+## C# Template
 ```cs
 //imports
 using System;
