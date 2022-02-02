@@ -2,3 +2,4 @@ inputDownloader.py
 /.vs
 /CSharp/.vs
 /CSharp/bin
+/CSharp/obj
