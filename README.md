@@ -1,5 +1,4 @@
-# Advent Of Code (2021)
-[Advent Of Code 2021](https://adventofcode.com/2021)
+<h1><a href="https://adventofcode.com/2021"></a></h1>
 
 Day | Status
 --- | --- 
