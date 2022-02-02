@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\Documents\\DriveSync\\GitHub\\AOC2021\\C#\\AOC2021\\AOC2021.csproj",
-      "projectName": "AOC2021",
-      "projectPath": "C:\\Users\\User\\Documents\\DriveSync\\GitHub\\AOC2021\\C#\\AOC2021\\AOC2021.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Documents\\DriveSync\\GitHub\\AOC2021\\CSharp\\CSharp.csproj",
+      "projectName": "CSharp",
+      "projectPath": "C:\\Users\\User\\Documents\\DriveSync\\GitHub\\AOC2021\\CSharp\\CSharp.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\Documents\\DriveSync\\GitHub\\AOC2021\\C#\\AOC2021\\obj\\",
+      "outputPath": "C:\\Users\\User\\Documents\\DriveSync\\GitHub\\AOC2021\\CSharp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -65,7 +65,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }
