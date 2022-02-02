@@ -17,6 +17,7 @@ namespace ConsoleApp1
         static void Main(string[] args)
         {
             Part1();
+            Part2();
         }
 
         static void Part1()
@@ -47,7 +48,30 @@ namespace ConsoleApp1
         {
             //How many sums are larger than the previous sum?
 
-            //FINISH LATER
+            float last_input = float.PositiveInfinity;
+            int increased = 0;
+            int decreased = 0;
+            int[] items = new int[inputs.Length];
+
+            for (int i = 0; i < inputs.Length; i++)
+            {
+                items[i] = int.Parse(inputs[i]);
+            }
+            for (int k = 0; k < (items.Length - 2); k++)
+            {
+                int value = items[k..(k+3)].Sum();
+                if (value > last_input)
+                {
+                    increased += 1;
+                }
+                else
+                {
+                    decreased += 1;
+                }
+                last_input = value;
+
+            }
+            Console.WriteLine(String.Format("How many measurements are larger than the previous measurement?\n{0}", increased));
         }
 
     }
