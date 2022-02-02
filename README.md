@@ -30,7 +30,7 @@ Day | Status
 25 | :x:
 
 ---
-## Template
+## Python Template
 ```py
 #imports
 import os.path as Path
@@ -55,4 +55,41 @@ def main():
 
 if __name__ == "__main__":
     main()
+```
+
+```cs
+//imports
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System;
+using System.IO;
+
+namespace ConsoleApp1
+{
+    static class day1
+    {
+        static readonly string[] inputs = File.ReadAllLines(Path.GetFullPath(Path.Combine(Directory.GetCurrentDirectory() + "..\\..\\..\\..\\inputs\\dayX.txt")), Encoding.UTF8);
+
+        //main
+        static void Main(string[] args)
+        {
+            Part1();
+            Part2();
+        }
+
+        static void Part1()
+        {
+            //PART 1 HERE
+        }
+
+        static void Part2()
+        {
+            //PART 2 HERE
+        }
+
+    }
+}
 ```

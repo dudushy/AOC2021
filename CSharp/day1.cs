@@ -1,14 +1,19 @@
-﻿using System;
+﻿//imports
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using System;
+using System.IO;
 
 namespace ConsoleApp1
 {
     static class day1
     {
+        static readonly string[] inputs = File.ReadAllLines(Path.GetFullPath(Path.Combine(Directory.GetCurrentDirectory() + "..\\..\\..\\..\\inputs\\day1.txt")), Encoding.UTF8);
+
+        //main
         static void Main(string[] args)
         {
             Part1();
@@ -18,7 +23,6 @@ namespace ConsoleApp1
         {
             //How many measurements are larger than the previous measurement?
 
-            string[] inputs = File.ReadAllLines("C:\\Users\\User\\Documents\\DriveSync\\GitHub\\AOC2021\\C#\\AOC2021\\inputs\\day1.txt", Encoding.UTF8);
             float last_input = float.PositiveInfinity;
             int increased = 0;
             int decreased = 0;
