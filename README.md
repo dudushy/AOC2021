@@ -31,22 +31,22 @@ Day | Status
 ---
 ## Python Template
 ```py
-#imports
+# Imports
 import os.path as Path
 
-# set global path
+# Set global path
 path = Path.join(Path.dirname(__file__), 'dayX.txt')
 
-#main
+# Main
 def part1():
     global path
     with open(path, 'r') as file:
-        pass
+        # PART 1 HERE
 
 def part2():
     global path
     with open(path, 'r') as file:
-        pass
+        # PART 2 HERE
 
 def main():
     part1()
@@ -58,17 +58,19 @@ if __name__ == "__main__":
 
 ## C# Template
 ```cs
-//imports
+// Imports
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+// Main
 namespace CSharp
 {
     static class DayX
     {
+        // Set global path
         static readonly string[] inputs = File.ReadAllLines(Path.GetFullPath(Path.Combine(Directory.GetCurrentDirectory() + "..\\..\\..\\..\\inputs\\dayX.txt")), Encoding.UTF8);
 
         public static void Part1()
